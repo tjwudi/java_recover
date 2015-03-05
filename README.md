@@ -25,3 +25,11 @@ A: The String class is immutable, so that once it is created a String object can
 ### Others
 
 1. Linux commands
+
+### Question
+
+1. Given a log file with format:
+" 1,2,start
+2,3,end
+2,4, start """"
+where each tuple is a (job_id,time,option) where option is start or end, find a way to map concurrent processes to each other
